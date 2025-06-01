@@ -18,6 +18,7 @@ interface OnClickProps {
   onClickHoTro?: MouseEventHandler<HTMLElement>;
   onClickSearch?: MouseEventHandler<HTMLElement>;
   onClickCart?: MouseEventHandler<HTMLElement>;
+  test1?: string;
 }
 
 const AppleNavbar: React.FC<OnClickProps> = ({
