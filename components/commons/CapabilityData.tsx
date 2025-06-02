@@ -13,6 +13,7 @@ interface OnClickProps {
   onClickRow?: MouseEventHandler<HTMLTableRowElement> | undefined;
   onClickMenu?: MouseEventHandler<HTMLButtonElement> | undefined;
   onClickPagination?: MouseEventHandler<HTMLButtonElement> | undefined;
+  title?: string;
 }
 
 type CapabilityData = {
@@ -30,7 +31,8 @@ const CapabilityTable: React.FC<OnClickProps> = ({
   data,
   onClickRow,
   onClickMenu,
-  onClickPagination
+  onClickPagination,
+  title
 }) => {
   // Safe data handling
   const safeData = _.isArray(data) ? data : [];
@@ -89,6 +91,7 @@ const CapabilityTable: React.FC<OnClickProps> = ({
 
   return (
     <div className="bg-white rounded-lg shadow overflow-hidden" id={id} style={style}>
+      {title}
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-200">
           <thead className="bg-gray-100">
