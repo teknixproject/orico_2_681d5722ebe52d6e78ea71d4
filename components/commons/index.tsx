@@ -19,4 +19,5 @@ export const components = {
   Collapse: dynamic(() => import('./Collapse')),
   CustomWidgete920019b2412: dynamic(() => import('./CustomWidgete920019b2412')),
   AppleHeader: dynamic(() => import("./AppleHeader")),  CapabilityData: dynamic(() => import("./CapabilityData")),
+  AppleNavigation: dynamic(() => import("./AppleNavigation")),
 };
