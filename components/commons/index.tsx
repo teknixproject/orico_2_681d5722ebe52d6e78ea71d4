@@ -20,4 +20,5 @@ export const components = {
   CustomWidgete920019b2412: dynamic(() => import('./CustomWidgete920019b2412')),
   AppleHeader: dynamic(() => import("./AppleHeader")),  CapabilityData: dynamic(() => import("./CapabilityData")),
   AppleNavigation: dynamic(() => import("./AppleNavigation")),
+  CustomWidgetc56a11e672eb: dynamic(() => import("./CustomWidgetc56a11e672eb")),
 };
