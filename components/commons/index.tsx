@@ -21,4 +21,5 @@ export const components = {
   AppleHeader: dynamic(() => import("./AppleHeader")),  CapabilityData: dynamic(() => import("./CapabilityData")),
   AppleNavigation: dynamic(() => import("./AppleNavigation")),
   CustomWidgetc56a11e672eb: dynamic(() => import("./CustomWidgetc56a11e672eb")),
+  CustomWidget88226bf4ff8c: dynamic(() => import("./CustomWidget88226bf4ff8c")),
 };
